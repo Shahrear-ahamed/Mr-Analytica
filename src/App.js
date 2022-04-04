@@ -5,8 +5,8 @@ import Blogs from "./Components/Blogs/Blogs"
 import DashBoard from "./Components/DashBoard/DashBoard"
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
-import PageNotFound from "./Components/PageNotFound/PageNotFound"
-import Reviews from "./Components/Reviews/Reviews"
+import PageNotFound from "./Components/PageNotFound/PageNotFound";
+import Reviews from "./Components/Reviews/Reviews";
 
 function App() {
   return (
