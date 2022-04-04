@@ -1,0 +1,9 @@
+.about-section{
+    max-width: 1200px;
+    width: 90%;
+    margin: 50px auto;
+}
+
+.faq h2{
+    margin-bottom: 10px;
+}

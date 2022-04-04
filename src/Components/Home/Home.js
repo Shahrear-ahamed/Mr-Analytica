@@ -1,9 +1,18 @@
 import React from "react";
 import "./Home.css";
+import macbookPro from "../../assets/images/macbook-pro-m1.jpg";
+import useReviews from "../../Hooks/useReviews";
+import UserReviews from "../UserReviews/UserReviews";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const [reviews] = useReviews([]);
+  // top 3 reviews
+  const threeReviews = reviews.slice(0, 3);
+  const navigate = useNavigate();
+  const goReviewPage = () => navigate("/review");
   return (
-    <div>
+    <div className="main-container">
       <div className="hero-section">
         <div>
           <div className="title">
@@ -22,8 +31,18 @@ const Home = () => {
           </div>
         </div>
         <div className="img-div">
-          <img src="./images/macbook-pro-m1.jpg" alt="macbook pro" />
+          <img src={macbookPro} alt="macbook pro" />
         </div>
+      </div>
+      <div className="reviews-container">
+        {threeReviews.map((review) => (
+          <UserReviews key={review.id} reviewData={review} />
+        ))}
+      </div>
+      <div className="btn-container">
+        <button className="all-review-btn" onClick={goReviewPage}>
+          View all reviews
+        </button>
       </div>
     </div>
   );

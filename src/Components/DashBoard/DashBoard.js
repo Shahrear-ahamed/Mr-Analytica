@@ -6,9 +6,7 @@ import "./DashBoard.css"
 const DashBoard = () => {
   const [datas, setDatas] = useState([]);
   useEffect(() => {
-    fetch(
-      "https://raw.githubusercontent.com/ProgrammingHero1/product-analysis-website/main/data.json"
-    )
+    fetch("data-analytics.json")
       .then((res) => res.json())
       .then((data) => setDatas(data));
   }, []);
@@ -68,10 +66,4 @@ const DashBoard = () => {
     </div>
   );
 };
-
-// investment: 100000;
-// month: "Mar";
-// revenue: 10401;
-// sell: 241;
-
 export default DashBoard;

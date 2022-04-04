@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Md Bouzid Ahamed",
+    "rating": 4,
+    "gender": "male",
+    "image": "https://randomuser.me/api/portraits/med/men/75.jpg",
+    "review": "Macbook pro has got everything I need. I love macbook pro. It's the perfect solution for our business."
+  },
+  {
+    "id": 2,
+    "name": "Nadia Khatun",
+    "rating": 3,
+    "gender": "female",
+    "image": "https://randomuser.me/api/portraits/women/17.jpg",
+    "review": "My first MacBook ever! I had been saving up for it before the official drop— & I was not disappointed!"
+  },
+  {
+    "id": 3,
+    "name": "Vivienne Mercer",
+    "rating": 4,
+    "gender": "male",
+    "image": "https://randomuser.me/api/portraits/men/62.jpg",
+    "review": "M1 pro chip is super powerful - photo/video editing, graphic design - this thing just kills it. Compared to previous MacBook Pro, it's a giant leap ahead."
+  },
+  {
+    "id": 4,
+    "name": "Loretta Henderson",
+    "rating": 5,
+    "gender": "female",
+    "image": "https://randomuser.me/api/portraits/women/63.jpg",
+    "review": " These tasks are a main reason to buy the pro version of the Macbook. This particularly model is the lower end of the spec you can get for a pro, but it still kicks butt."
+  },
+  {
+    "id": 5,
+    "name": "Terrance Grant",
+    "rating": 2,
+    "gender": "male",
+    "image": "https://randomuser.me/api/portraits/men/83.jpg",
+    "review": "This laptop has a superior display, superior speakers, superior camera and an excellent keyboard. Don't go cheap and buy the 'affordable' MacBook Air base model like some of these talking heads have been advising."
+  },
+  {
+    "id": 6,
+    "name": "Mitchell Riley",
+    "rating": 5,
+    "gender": "male",
+    "image": "https://randomuser.me/api/portraits/men/22.jpg",
+    "review": "My 13' M1 did just what I needed in this regard, but I'm someone who wanted a slightly larger screen without drastically increasing my footprint and weight."
+  }
+]

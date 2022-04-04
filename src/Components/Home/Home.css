@@ -1,9 +1,11 @@
-.hero-section {
-  display: grid;
-  height: 400px;
+.main-container {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
+}
+.hero-section {
+  display: grid;
+  height: 400px;
   align-items: center;
   grid-template-columns: 3fr 2fr;
 }
@@ -27,13 +29,36 @@
   cursor: pointer;
   border: 1px solid transparent;
   background-color: #f39529;
-  transition: all .4s ease-in;
+  transition: all 0.4s ease-in;
 }
-.btn-explore:hover{
+.btn-explore:hover {
   color: #f39529;
   background-color: #fff;
   border: 1px solid #f39529;
 }
 .img-div img {
   width: 100%;
+}
+
+/** Review section are here */
+.reviews-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 30px auto;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.all-review-btn {
+  font-size: 16px;
+  padding: 10px 15px;
+  border: 1px solid #f39529;
+  border-radius: 5px;
+  background-color: #f3952914;
+  color: black;
+  font-weight: 500;
+  cursor: pointer;
 }

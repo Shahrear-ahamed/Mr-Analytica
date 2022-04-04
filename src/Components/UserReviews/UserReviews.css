@@ -1,0 +1,17 @@
+.review-cart {
+  padding: 20px 10px;
+  box-shadow: 1px 4px 8px 0px #0000003b;
+  border-radius: 5px;
+}
+.user-image {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.review-cart {
+  display: flex;
+}
+.review-text h4 {
+  margin-bottom: 5px;
+}
