@@ -13,7 +13,7 @@ const UserReviews = ({ reviewData }) => {
       <div className="review-text">
         <h4>{name}</h4>
         {[...Array(5)].map((data, i) => (
-          <FaStar color={i < rating ? "#f39529" : "lightgray"} />
+          <FaStar key={i} color={i < rating ? "#f39529" : "lightgray"} />
         ))}
         <p>{review.slice(0, 100)}</p>
       </div>

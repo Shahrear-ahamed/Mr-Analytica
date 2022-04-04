@@ -15,7 +15,7 @@ const DashBoard = () => {
     <div className="chart-cart">
       <div>
         <LineChart
-          width={500}
+          width={450}
           height={300}
           data={datas}
           syncId="anyId"
@@ -43,7 +43,7 @@ const DashBoard = () => {
 
       <div>
         <BarChart
-          width={500}
+          width={450}
           height={300}
           data={datas}
           margin={{

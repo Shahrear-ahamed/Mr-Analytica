@@ -1,26 +1,60 @@
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
-.header-navbar{
-    height: 80px;
-    width: 1200px;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-between;
+.header-navbar {
+  height: 80px;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
 }
-.header-navbar h1{
-    font-size: 40px;
-    cursor: pointer;
+.header-navbar h1 {
+  font-size: 40px;
+  cursor: pointer;
 }
-.navbar-links{
-    font-weight: 500;
-    list-style: none;
+.navbar-links {
+  font-weight: 500;
+  list-style: none;
 }
-.navbar-links li{
-    margin-left: 20px;
+.navbar-links li {
+  margin-left: 20px;
 }
-.navbar-links li a{
-    color: black;
-    text-transform: uppercase;
-    text-decoration: none;
+.navbar-links li a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* ############ add media query ########### */
+/* ######### table device ######### */
+@media (min-width: 768px) and (max-width: 992px) {
+  .header-navbar h1 {
+    font-size: 30px;
+  }
+  .navbar-links li a {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .header-navbar h1 {
+    font-size: 25px;
+  }
+  .navbar-links li {
+    margin-left: 10px;
+  }
+  .navbar-links li a {
+    font-size: 12px;
+  }
+}
+
+/* ####### mobile device ####### */
+@media (max-width: 576px) {
+  .one {
+    flex-direction: column;
+  }
+  .navbar-links{
+    font-size: 12px;
+  }
 }

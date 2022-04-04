@@ -6,3 +6,10 @@
     margin: 50px auto;
     gap: 25px;
 }
+
+/* ####### mobile device ####### */
+@media (max-width: 670px) {
+  .reviews-page-container{
+      grid-template-columns: 1fr;
+  }
+}
