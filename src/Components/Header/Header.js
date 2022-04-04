@@ -5,7 +5,7 @@ import "./Header.css"
 const Header = () => {
   return (
     <nav className="header-navbar flex">
-      <h1>Mr. Talking</h1>
+      <h1>Mr. Analytica</h1>
       <ul className="navbar-links flex">
         <li>
           <CustomLink to="/">Home</CustomLink>
