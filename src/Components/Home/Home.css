@@ -1,0 +1,39 @@
+.hero-section {
+  display: grid;
+  height: 400px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  grid-template-columns: 3fr 2fr;
+}
+.title-one {
+  font-size: 40px;
+}
+.title-two {
+  font-size: 31px;
+}
+.description p {
+  margin: 20px 40px 20px 0;
+  font-size: 18px;
+  color: #303030;
+}
+.btn-explore {
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  background-color: #f39529;
+  transition: all .4s ease-in;
+}
+.btn-explore:hover{
+  color: #f39529;
+  background-color: #fff;
+  border: 1px solid #f39529;
+}
+.img-div img {
+  width: 100%;
+}

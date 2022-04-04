@@ -1,0 +1,28 @@
+.header {
+  display: none;
+}
+.page-not-found {
+  height: 80vh;
+  position: relative;
+}
+.error {
+  font-size: 210px;
+  position: absolute;
+  top: 40%;
+  right: 25%;
+  opacity: 0.2;
+  transform: translate(-50%, -50%);
+}
+.text-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #ffffff42;
+}
+.sorry {
+  text-transform: uppercase;
+  top: 40%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  position: absolute;
+}
